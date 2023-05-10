@@ -1,0 +1,23 @@
+.background_pic {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('C:\Users\Carson Appiah\Documents\frontend-netflix-clone\images\bg.jpeg');
+    background-size: cover;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 80px 80px 80px 80px;
+    color: #f13232;
+    border-top: 5px solid;
+    background-color: #03030e;
+}
+
+.footer_h h2 {
+    text-align: right;
+    font: 1.5em sans-serif;
+    font-weight: 400;
+    margin-top: 1.4em;
+}
