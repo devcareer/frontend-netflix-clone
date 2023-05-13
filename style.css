@@ -1,0 +1,97 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Instrument Sans', sans-serif;
+   background: #023047;
+   color: #fff;
+}
+.section-center{
+   width: 80%;
+   margin: 0 auto;
+}
+@media screen and (min-width:768px){
+   .section-center{
+      width: 75%;
+   }
+}
+
+
+/* ---------- hero title -------- */
+.hero-text{
+   margin-top: 9rem;
+   font-size: 2.2rem;
+   max-width: 22rem;
+   margin-bottom: 1rem;
+   font-weight: bold;
+}
+.sub-text{
+   margin-bottom: 1.1rem;
+   font-weight: 600;
+}
+
+
+
+/* ---------- email address -------- */
+.email-address{
+   background: #05014a;
+   border: 4px solid transparent;
+   border-radius: 1rem;
+   border-image: linear-gradient(to right, red, blue) 1;
+   padding: 1rem 1rem;
+}
+.email-title h2{
+   font-weight: 100;
+   font-size: 1.2rem;
+   padding-bottom: 1rem;
+}
+.form-control{
+   padding: .9rem;
+   width: 100%;
+   background: #000;
+   border: 1px solid #8a817c;
+   border-radius: .3rem;
+   margin-bottom: .8rem;
+   color: #fff;
+   font-weight: 600;
+}
+input::placeholder{
+   font-size: 1rem;
+   color: #b2beb5;
+   font-weight: 600;
+}
+.btn{
+   text-transform: capitalize;
+   padding: .8rem;
+   font-size: 1rem;
+   background: red;
+   color: #fff;
+   font-weight: 600;
+   border: 1px solid red;
+   border-radius: .3rem;
+   cursor: pointer;
+}
+.btn:hover{
+   background: #dd1a1a;
+}
+
+@media screen and (min-width: 768px){
+   .hero-text{
+      font-size: 3.7rem;
+      max-width: 57rem;
+   }
+   .email-form{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+   }
+   .form-control{
+      min-width: 24rem;
+   }
+   .btn{
+      margin-left: .5rem;
+   }
+}
