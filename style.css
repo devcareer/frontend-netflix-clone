@@ -125,6 +125,7 @@ input::placeholder{
 }
 .btn:hover{
    background: #dd1a1a;
+   transition: var(--transition);
 }
 
 @media screen and (min-width: 768px){
