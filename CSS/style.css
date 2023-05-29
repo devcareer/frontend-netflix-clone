@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-img svg {
+  margin: 25px;
+  height: 36px;
+  width: 134px;
+}
+
+.navbar button {
+  position: relative;
+  background-color: rgb(248, 21, 21);
+  color: white;
+  padding: 10px;
+  margin: 25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(228, 11, 11);
+}
+
+.background_pic {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("/images/bg.jpeg");
+  background-size: cover;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Media query */
+
+@media screen and (min-width: 500px) {
+}
