@@ -3,7 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-image: url('../images/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.75);
+}
 .navbar{
     position: absolute;
     top: 20px;
@@ -16,10 +23,10 @@
 
 
 
-.navbar-img  svg{
+.navbar-img  img{
     margin: 25px;
     height: 36px;
-    width: 134px;
+    width: 170px;
     
 }
 
