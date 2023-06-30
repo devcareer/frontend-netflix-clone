@@ -17,14 +17,14 @@ body{
 
 /* ---------- hero title -------- */
 .hero-text{
-   margin-top: 25px;
-   max-width: 24rem;
-   margin-bottom: 1.5rem;
+   margin-top: 135px;
+   max-width: 500px;
+   margin-bottom: 20px;
    font-weight: 900;
    font-size: 2.3rem;
 }
 .sub-text{
-   margin-bottom: 2rem;
+   margin-bottom: 20px;
    font-weight: 600;
    font-size: 1.2rem;
 }
@@ -35,22 +35,22 @@ body{
 .email-address{
    background: #030120;
    border: 4px solid transparent;
-   border-radius: 1rem;
+   border-radius: 2px;
    border-image: linear-gradient(to right, red, blue) 1;
-   padding: 1rem 1rem;
+   padding: 16px 16px;
 }
 .email-title h2{
    font-weight: 100;
    font-size: 1.2rem;
-   padding-bottom: 1rem;
+   padding-bottom: 16px;
 }
 .form-control{
-   padding: .9rem;
+   padding: 14px;
    width: 100%;
    background: #000;
    border: 1px solid #8a817c;
-   border-radius: .3rem;
-   margin-bottom: .8rem;
+   border-radius: 5px;
+   margin-bottom: 15px;
    color: #fff;
    font-weight: 600;
 }
@@ -65,13 +65,13 @@ input::placeholder{
 /* ---------- button -------- */
 .btn{
    text-transform: capitalize;
-   padding: .8rem;
+   padding: 13px;
    font-size: 1rem;
    background: red;
    color: #fff;
    font-weight: 600;
    border: 1px solid red;
-   border-radius: .3rem;
+   border-radius: 4px;
    cursor: pointer;
 }
 .btn:hover{
@@ -83,16 +83,16 @@ input::placeholder{
 
 @media screen and (min-width: 968px){
    .hero-text{
-      margin-top: 11rem;
+      margin-top: 150px;
       font-size: 3.7rem;
-      max-width: 57rem;
+      max-width: 700px;
    }
    .sub-text{
       font-size: 1.5rem;
-      margin-bottom: 3rem;
+      margin-bottom: 40px;
    }
    .email-address{
-      padding: 1.3rem 3rem;
+      padding: 20px 45px;
    }
    .email-title h2{
       font-size: 1.5rem;
@@ -103,9 +103,9 @@ input::placeholder{
       flex-wrap: wrap;
    }
    .form-control{
-      min-width: 24rem;
+      min-width: 400px;
    }
    .btn{
-      margin-left: .5rem;
+      margin-left: 7px;
    }
 }
