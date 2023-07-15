@@ -1,0 +1,155 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+:root{
+   --transition: all linear .3s;
+}
+body{
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Instrument Sans', sans-serif;
+   background: #030120;
+   color: #fff;
+}
+.section-center{
+   width: 85%;
+   margin: 0 auto;
+}
+@media screen and (min-width:768px){
+   .section-center{
+      width: 82%;
+   }
+}
+
+
+/* ---------- FAQs -------- */
+.faqs{
+   margin-bottom: 16px;
+}
+.faqs h1{
+   font-size: 2rem;
+   text-transform: capitalize;
+   margin-bottom: 16px;
+   max-width: 304px;
+}
+.faq:not(.faq-ans){
+   background: #2d2d2d;
+   margin-bottom: 8px;
+   padding: 16px;
+   cursor: pointer;
+}
+.faq:hover{
+   background: hsl(0, 0%, 30%);
+   transition: var(--transition);
+}
+.faq-icon{
+   position: absolute;
+   right: 0;
+   font-size: 1.3rem;
+   font-weight: 400;
+}
+.faq-ques{
+   position: relative;
+   padding: 8px;
+   /* border-bottom: 1px solid #030120;
+   border-width: 20%; */
+}
+.faq-ans{
+   margin-top: 16px;
+   padding: 16px 8px;
+   display: none;
+}
+.faq h4, p{
+   font-weight: 400;
+   font-size: 1.07rem;
+   line-height: 24px;
+}
+.faq.open .faq-ans{
+   display: block;
+}
+/* bg #132144
+on hover #223362 */
+
+@media screen and (min-width:678px){
+   .faqs h1{
+      font-size: 2.5rem;
+      max-width: 100%;
+   }
+   .faq .faq-ques, .faq .faq-ans{
+      font-size: 1.5rem;
+   }
+   .faq-ques{
+      padding: 10px;
+   }
+   .faq-ans{
+      line-height: 30px;
+   }
+   .faq-icon{
+      font-size: 1.9rem;
+   }
+}
+
+
+
+/* ---------- email address -------- */
+/* .email-address{
+   border: 4px solid transparent;
+   border-radius: 1rem;
+   border-image: linear-gradient(to right, red, blue) 1;
+   padding: 1rem 1rem;
+} */
+.email-title h2{
+   font-weight: 100;
+   font-size: 1.2rem;
+   padding-bottom: 16px;
+}
+.form-control{
+   padding: 15px;
+   width: 380px;
+   background: hsl(0, 0%, 7%);
+   border: 1px solid #8a817c;
+   border-radius: 5px;
+   margin-bottom: 13px;
+   color: #fff;
+   font-weight: 600;
+}
+input::placeholder{
+   font-size: 1rem;
+   color: #b2beb5;
+   font-weight: 600;
+}
+.btn{
+   text-transform: capitalize;
+   padding: 13px;
+   font-size: 1rem;
+   background: red;
+   color: #fff;
+   font-weight: 600;
+   border: 1px solid red;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.btn:hover{
+   background: #dd1a1a;
+   transition: var(--transition);
+}
+
+@media screen and (min-width: 768px){
+   .hero-text{
+      font-size: 3.7rem;
+      max-width: 912px;
+   }
+   .email-form{
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+   }
+   .form-control{
+      min-width: 384;
+   }
+   .btn{
+      margin-left: 8px;
+   }
+}
